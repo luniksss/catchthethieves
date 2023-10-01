@@ -1,0 +1,135 @@
+#startButton {
+    background-color: coral;
+    color: antiquewhite;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: 450px;
+    left: 625px;
+}
+
+#ava {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 90px;
+    left: 550px;
+}
+
+#back1 {
+    width: 345px;
+    height: 280px;
+    position: absolute;
+    top: 425px;
+    left: 1000px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+#back2 {
+    width: 345px;
+    height: 280px;
+    position: absolute;
+    top: 425px;
+    left: 0px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img.carrot {
+    transform: scale(1);
+    width: 80;
+    height: 100;
+}
+
+img#carrot-0 {
+    position: absolute;
+    left: 460px;
+    top: 125px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+img#carrot-1 {
+    position: absolute;
+    left: 660px;
+    top: 125px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-2 {
+    position: absolute ;
+    left: 860px;
+    top: 125px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-3 {
+    position: absolute ;
+    left: 460px;
+    top: 260px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-4 {
+    position: absolute ;
+    left: 660px;
+    top: 260px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-5 {
+    position: absolute ;
+    left: 860px;
+    top: 260px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-6 {
+    position: absolute ;
+    left: 460px;
+    top: 395px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-7 {
+    position: absolute ;
+   left: 660px;
+   top: 395px;
+   display: none;
+   animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
+
+img#carrot-8 {
+    position: absolute ;
+    left: 860px;
+    top: 395px;
+    display: none;
+    animation: cssAnimation 0s ease-in 20s forwards;
+    animation-fill-mode: forwards;
+}
